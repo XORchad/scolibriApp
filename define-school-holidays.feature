@@ -1,7 +1,7 @@
 Feature: Define school holidays
-  In order to let the members know when the school is closed
+  In order to know when the school is closed
   As a school administrator
-  I want to had the holidays to the calendar
+  I want to add the holidays dates to the calendar
 
 Scenario:
   Given I am logged in as "school administrator"
