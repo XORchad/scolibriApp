@@ -12,5 +12,5 @@ Scenario:
   And I fill in "start date" with "20/12/2013"
   And I fill in "end date" with "05/01/2014"
   And I press "save"
-  Then I should see "event created"
+  Then I should see the event in my calendar
   And All users related to school should see the event in their calendars
